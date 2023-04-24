@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        nav {
+            position: fixed;
+            z-index: 1;
+            display: flex;
+            top: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: #d0a77f; 
+            height: 8%;
+            width: 100%
+        }
+
+        #Name {
+            height: 85%;
+            width: 135px;
+            margin-right: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+            li {
+                display: inline-block;
+                margin: 0 10px;
+                color: white;
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            }
+
+            li:hover {
+                color: crimson;
+                cursor: pointer;
+                font-weight: bolder;
+            }
+
+        #Name h1 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        #Name h2 {
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        main {
+            margin-top: 78px;
+            height: 842px;
+            display: flex;
+        }
+
+        #esquerda {
+            width: 60%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #esquerda h1 {
+            font-size: 40px;
+            color:#d0a77f;
+        }
+
+        #esquerda p {
+            width: 80%;
+            font-size: 20px;
+            color: white;
+        }
+
+        #direita {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 40%;
+            background-color: #d3995e;
+        }
+
+        footer {
+            display: flex;
+            bottom: 0; 
+            left: 0; 
+            right: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: #d0a77f; 
+            height: 60px;
+            width: 100%
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <nav>
+        <div id="Name">
+            <h1>Rafael Azevedo</h1>
+            <h2> Vagabundo local</h2>
+        </div>
+
+        <ul>
+            <li><a href="index_Home.html" style="color: white; text-decoration: none;">Home</a></li>
+            <li><a href="index_Sobre mim.html" style="color: white; text-decoration: none;">Sobre mim</a></li>
+            <li><a href="index_Services.html" style="color: white; text-decoration: none;">Serviços</a></li>
+            <li><a href="index_Portifólio.html" style="color: white; text-decoration: none;">Portifólio</a></li>
+            <li><a href="index_Contact.html" style="color: white; text-decoration: none;">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="esquerda">
+            <h1>Apresentações:</h1>
+            <p>Meu nome é Rafael Barcelos de Azevedo. Nascido e criado em Campos dos Goytacazes - RJ, eu me mudei para Vila Velha - ES esse ano para cursar Ciencia da computação na UVV. Minha mudança do Rio de Janeiro para Espirito Santo foi meu primeiro passo em um longo caminho que planejo trilhar, alem de um grande desafio para minha autonomia e disciplina. Meu destino no fim desta trilha, morar no Canada, é o que me motiva a tomar tal iniciativa.</p>
+            <p>O meu interesse na Ciencia da Computação vem da oportunidade de adentrar um mercado em constante ascenção, alem da valorização dos profissionais da área no Canadá. É claro, minha paixão pelo mundo da tecnologia não se deve apenas ao fato de ser uma boa carreira profissional. De momento, posso dizer que meus principais intereses na área são bancos de dados e cybersegurança.</p>
+            <p>Quanto a hobbies: Eu toco piano fazem 7 anos, porém atualmente estou limitado a um teclado por conta da mudança. Alem disso, eu nos ultimos anos adquiri um apreço pela literatura e busco tornar-me um novelista, estudando a teoria por trás do storytelling.</p>
+        </div>
+        <div id="direita">
+            <img src="/Imagens/WhatsApp Image 2023-04-15 at 11.43.55 AM.jpeg" alt="">
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/Rbarzevedo" style="color: white; text-decoration: none;">GITHUB</li>
+            <li><a href="https://www.instagram.com/rbarzevedo123/" style="color: white; text-decoration: none;">INSTAGRAM</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

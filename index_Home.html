@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        nav {
+            position: fixed;
+            z-index: 1;
+            display: flex;
+            top: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: #d0a77f; 
+            height: 8%;
+            width: 100%
+        }
+
+        #Name {
+            height: 85%;
+            width: 135px;
+            margin-right: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+            li {
+                display: inline-block;
+                margin: 0 10px;
+                color: white;
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            }
+
+            li:hover {
+                color: crimson;
+                cursor: pointer;
+                font-weight: bolder;
+            }
+
+        #Name h1 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        #Name h2 {
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: #d0a77f;
+            margin-top: 78px;
+            height: 640px;
+        }
+
+        #Texto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 100px;
+        }
+
+        #Texto h1 {
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #Texto h3 {
+            color: white;
+            font-style: italic;
+        }
+
+        #Texto h5 {
+            color: white;
+            font-style: italic;
+        }
+
+        #Imagebox {
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+
+        #Imagebox img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+}
+
+        main {
+            background-image: url(https://bens.org/wp-content/uploads/2021/12/office-buildings-1400x934.jpg);
+            background-size: cover;
+            height: 580px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #Enrolar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 70%;
+            height: 100%;
+
+        }
+
+        #Enrolar h1 {
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+        #Enrolar p {
+            color: white;
+            font-size: 20px;
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #d0a77f; 
+            height: 60px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <nav>
+        <div id="Name">
+            <h1>Rafael Azevedo</h1>
+            <h2> Vagabundo local</h2>
+        </div>
+
+        <ul>
+            <li><a href="index_Home.html" style="color: white; text-decoration: none;">Home</a></li>
+            <li><a href="index_Sobre mim.html" style="color: white; text-decoration: none;">Sobre mim</a></li>
+            <li><a href="index_Services.html" style="color: white; text-decoration: none;">Serviços</a></li>
+            <li><a href="index_Portifólio.html" style="color: white; text-decoration: none;">Portifólio</a></li>
+            <li><a href="index_Contact.html" style="color: white; text-decoration: none;">Contato</a></li>
+        </ul>
+    </nav>
+    <Header>
+            <div id="Texto">
+                <h1>Bem vindo(a) ao meu site</h1>
+                <h3>Aqui você encontra tudo e mais um pouco</h3>
+                <h5>Since 2004</h5>
+            </div>
+            <div id="Imagebox">
+                <img src="https://pps.whatsapp.net/v/t61.24694-24/328293930_597466715620952_2671817176629646652_n.jpg?ccb=11-4&oh=01_AdSrfcan9dv4QiJZkIuASEk01WKA_LjFD1ZT_9-lyldKqw&oe=6447C26E" alt="Redditor">
+            </div>
+    </Header>
+    <main>
+        <div id="Enrolar">
+        <h1>Do que se trata?</h1>
+        <p>Este site se trata de um trabalho feito por mim. A ideia é que no futuro eu ultilize deste site para divulgar meu curriculo. Por enquanto, visto que eu não tenho muito o que apresentar, ele servirá apenas como template. Pode dar uma olhada em volta. Sei que a imagem acima está em péssima qualidade, mas eu não tenho tanta foto minha e essa ai foi a mais conveniente. Agora deixa eu soltar um Lorem Ipsum aqui só pra encher linguiça.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In est tenetur placeat numquam similique alias eaque quisquam tempore veniam impedit recusandae magnam vel praesentium, sint nihil molestias debitis expedita possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. In est tenetur placeat numquam similique alias eaque quisquam tempore veniam impedit recusandae magnam vel praesentium, sint nihil molestias debitis expedita possimus.
+        </p>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/Rbarzevedo" style="color: white; text-decoration: none;">GITHUB</li>
+            <li><a href="https://www.instagram.com/rbarzevedo123/" style="color: white; text-decoration: none;">INSTAGRAM</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

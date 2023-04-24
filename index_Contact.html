@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        nav {
+            position: fixed;
+            z-index: 1;
+            display: flex;
+            top: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: #d0a77f; 
+            height: 8%;
+            width: 100%
+        }
+
+        #Name {
+            height: 85%;
+            width: 135px;
+            margin-right: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+            li {
+                display: inline-block;
+                margin: 0 10px;
+                color: white;
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            }
+
+            li:hover {
+                color: crimson;
+                cursor: pointer;
+                font-weight: bolder;
+            }
+
+        #Name h1 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        #Name h2 {
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        main {
+            display: flex;
+            position: relative;
+            margin-top: 78px;
+            height: 842px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .lado-esquerdo {
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 50%;
+
+        }
+
+        #palavras h1 {
+            color: #d0a77f;
+        }
+
+        #palavras h3 {
+            color: white;
+        }
+
+        Form {
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+        
+        #name {
+            margin: 3px;
+        }
+
+        #email {
+            margin: 3px;
+        }
+
+        #email::placeholder {
+            text-align: left;
+        }
+
+        #message {
+            margin: 3px;
+        }
+
+        textarea[type="message"] {
+            padding: 10px;
+            border: 1px solid black;
+            position: relative;
+            vertical-align: top;
+        }
+
+        textarea[type="message"]::placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-left: 10px;
+            padding-top: 10px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        .lado-direito {
+            background-color: #d3995e;
+            position: absolute;
+            right: 0;
+            width: 50%;
+            height: 100%;
+        }
+
+        #titulo {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color: black;
+        }
+
+        #conteudo {
+            margin-top: 100px;
+        }
+
+        #phone {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #phone img {
+            display: inline-block;
+            margin-right: 20px;
+            height: 200px;
+            width: 200px;
+        }
+
+        #phone p {
+            color: black;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        #email {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #email img {
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        #email p {
+            color: black;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        footer {
+            display: flex;
+            bottom: 0; 
+            left: 0; 
+            right: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: #d0a77f; 
+            height: 60px;
+            width: 100%
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <nav>
+        <div id="Name">
+            <h1>Rafael Azevedo</h1>
+            <h2>Vagabundo local</h2>
+        </div>
+
+        <ul>
+            <li><a href="index_Home.html" style="color: white; text-decoration: none;">Home</a></li>
+            <li><a href="index_Sobre mim.html" style="color: white; text-decoration: none;">Sobre mim</a></li>
+            <li><a href="index_Services.html" style="color: white; text-decoration: none;">Serviços</a></li>
+            <li><a href="index_Portifólio.html" style="color: white; text-decoration: none;">Portifólio</a></li>
+            <li><a href="index_Contact.html" style="color: white; text-decoration: none;">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="lado-esquerdo">
+            <div id="palavras">
+            <h1>Entre em contato!</h1>
+            <h3>Eu checo a caixa de mensagens de vez em quando, eu juro</h3>
+            </div>
+            <form>
+            <div id="name">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome"><br>
+            </div>
+            <div id="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu Email"><br>
+            </div>
+            <div id="message">
+                <textarea style="height: 200px; width: 300px;" type="message" id="message" name="message" placeholder="Insira sua mensagem aqui..."></textarea>
+            </div>
+            <div id="button">
+            <input type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+        <div class="lado-direito">
+            <div id="titulo">
+                <h1>Outras formas de me achar</h1>
+            </div>
+            <hr style="height: 3px; border: 0; background-color: black;">
+            <div id="conteudo">
+                <div id="phone">
+                    <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png" alt="phone">
+                    <p>(22) 99758-4119</p>
+                </div>
+                <hr style="width: 50%;">
+                <div id="email">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2989/2989993.png" alt="email">
+                    <p>Rbarzevedo2@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/Rbarzevedo" style="color: white; text-decoration: none;">GITHUB</li>
+            <li><a href="https://www.instagram.com/rbarzevedo123/" style="color: white; text-decoration: none;">INSTAGRAM</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
